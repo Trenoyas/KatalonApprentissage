@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>tsTextBox</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>71ad0a44-7ac7-4ec0-83bc-9bc72dbbb0e7</testSuiteGuid>
+   <testCaseLink>
+      <guid>404ac911-e97c-4546-925d-3b350150bb70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/toolsqa/elements/textBox</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>55342914-e3ca-4123-866e-f003ff7c1349</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/toolsqa/dtTextBox</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>55342914-e3ca-4123-866e-f003ff7c1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fullName</value>
+         <variableId>63017a50-4302-41f4-a304-e6065785efe9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55342914-e3ca-4123-866e-f003ff7c1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>74fa23e6-6f63-444e-8b7d-f39519a354e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55342914-e3ca-4123-866e-f003ff7c1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currentAddress</value>
+         <variableId>d737b565-1bbf-4715-a7f0-d66be57d824f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55342914-e3ca-4123-866e-f003ff7c1349</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>permanentAddress</value>
+         <variableId>c1756eef-16ec-48d1-a551-822e25110557</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

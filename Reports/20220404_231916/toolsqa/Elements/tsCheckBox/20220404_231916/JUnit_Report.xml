@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="tsCheckBox" time="56.926" tests="2" failures="0" errors="0">
+   <testsuite name="tsCheckBox" tests="2" failures="0" errors="0" time="56.926" skipped="0" timestamp="2022-04-04 23:19:20" hostname="remi.yang - FR-L5331836.groupinfra.com" id="Test Suites/toolsqa/Elements/tsCheckBox">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916"/>
+         <property name="logFiles" value="C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107173840.png, C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107182156.png, C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107186577.png, C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107201798.png, C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107208817.png, C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107213184.png"/>
+         <property name="hostName" value="remi.yang - FR-L5331836.groupinfra.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.84"/>
+         <property name="hostAddress" value="192.168.1.30"/>
+         <property name="sessionId" value="d84f8de689b192000fbebbedd0c4da73"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/toolsqa/elements/checkBox" time="30.136" classname="Test Cases/toolsqa/elements/checkBox" status="PASSED">
+         <system-out><![CDATA[2022-04-04 23:19:20 - [TEST_CASE][PASSED] - Test Cases/toolsqa/elements/checkBox: Test Cases/toolsqa/elements/checkBox
+
+2022-04-04 23:19:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 23:19:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 23:19:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 23:19:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 23:19:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 23:19:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 23:19:23 - [TEST_STEP][PASSED] - navigateToUrl(toolsqa_urlElements_checkbox): Navigate to 'https://demoqa.com/checkbox' successfully
+
+2022-04-04 23:19:25 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/checkbox' successfully
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - listeBloc = choix.split("
+"): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - for ([j = 0, j < listeBloc.size(), (j++)]): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:25 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:27 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:27 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:27 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:27 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:27 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:28 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:29 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:29 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:29 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:19:34 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107173840.png]]
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:34 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - for (String choix : listeChoix[i].split("-")): null
+
+2022-04-04 23:19:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:36 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:19:42 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107182156.png]]
+
+2022-04-04 23:19:42 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:42 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:42 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:42 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:19:46 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107186577.png]]
+
+2022-04-04 23:19:46 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:46 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:46 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:47 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - for (String choix : listeChoix[i].split("-")): null
+
+2022-04-04 23:19:47 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:48 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:49 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-04 23:19:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/toolsqa/elements/checkBox" time="26.33" classname="Test Cases/toolsqa/elements/checkBox" status="PASSED">
+         <system-out><![CDATA[2022-04-04 23:19:50 - [TEST_CASE][PASSED] - Test Cases/toolsqa/elements/checkBox: Test Cases/toolsqa/elements/checkBox
+
+2022-04-04 23:19:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 23:19:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-04 23:19:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-04-04 23:19:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 23:19:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 23:19:52 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 23:19:52 - [TEST_STEP][PASSED] - navigateToUrl(toolsqa_urlElements_checkbox): Navigate to 'https://demoqa.com/checkbox' successfully
+
+2022-04-04 23:19:53 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/checkbox' successfully
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - listeBloc = choix.split("
+"): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - for ([j = 0, j < listeBloc.size(), (j++)]): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:54 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:55 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:55 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:55 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:55 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:56 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:19:56 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:57 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:19:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:20:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:20:01 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107201798.png]]
+
+2022-04-04 23:20:01 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:01 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:01 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:20:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:02 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:02 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:02 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:20:02 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:03 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:20:03 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":listeChoix[i]])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - println("listeBloc:'" + listeBloc[j].trim() + "'"): null
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - listeChoix = trim().split(">"): null
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - for ([i = 0, i < listeChoix.size(), (i++)]): null
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:20:04 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:20:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:20:08 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Home" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107208817.png]]
+
+2022-04-04 23:20:08 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:08 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:08 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:20:08 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+
+2022-04-04 23:20:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 23:20:13 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' located by '//li[contains(@class,"collapsed")]/span/label/span[.="Documents" and @class="rct-title"]/../../button' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at checkBox.run(checkBox:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649107156629.run(TempTestSuite1649107156629.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\remi.yang\\git\\KatalonApprentissage\\Reports\\20220404_231916\\toolsqa\\Elements\\tsCheckBox\\20220404_231916\\1649107213184.png]]
+
+2022-04-04 23:20:13 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:13 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:13 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:20:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is present
+
+2022-04-04 23:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud", ["choix":listeChoix[i]])): Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_Noeud' is clicked on
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - println(listeChoix[i]): null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - println("listeChoix1[i]:" + listeChoix[i]): null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - if (i < listeChoix.size() - 1): null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - else: null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - if (listeChoix[i].contains("-")): null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - for (String choix : listeChoix[i].split("-")): null
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:14 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:20:14 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix]), 3, OPTIONAL)): null
+
+2022-04-04 23:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is present
+
+2022-04-04 23:20:15 - [TEST_STEP][PASSED] - check(findTestObject("Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal", ["choix":choix])): Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:15 - [MESSAGE][PASSED] - Object 'Object Repository/toolsqa/elements/checkBox/Page_ToolsQA/BTN_NoeudFinal' is checked
+
+2022-04-04 23:20:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-04 23:20:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-04 23:19:20 - [TEST_SUITE][PASSED] - tsCheckBox: Test Cases/toolsqa/elements/checkBox]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

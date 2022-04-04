@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+tsCheckBox,Chrome 99.0.4844.84,,,2022-04-04 23:19:20,2022-04-04 23:20:17,"56,926s",PASSED
+,,,,,,,
+Test Cases/toolsqa/elements/checkBox,Chrome 99.0.4844.84,,,2022-04-04 23:19:20,2022-04-04 23:19:50,"30,136s",PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-04-04 23:19:21,2022-04-04 23:19:23,"2,671s",PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-04-04 23:19:23,2022-04-04 23:19:23,"0,180s",PASSED
+navigateToUrl(toolsqa_urlElements_checkbox),Chrome 99.0.4844.84,,,2022-04-04 23:19:23,2022-04-04 23:19:25,"1,836s",PASSED
+"listeBloc = choix.split(""
+"")",Chrome 99.0.4844.84,,,2022-04-04 23:19:25,2022-04-04 23:19:25,"0,008s",PASSED
+"for ([j = 0, j < listeBloc.size(), (j++)])",Chrome 99.0.4844.84,,,2022-04-04 23:19:25,2022-04-04 23:19:49,"23,807s",PASSED
+closeBrowser(),Chrome 99.0.4844.84,,,2022-04-04 23:19:49,2022-04-04 23:19:50,"1,061s",PASSED
+,,,,,,,
+Test Cases/toolsqa/elements/checkBox,Chrome 99.0.4844.84,,,2022-04-04 23:19:50,2022-04-04 23:20:17,"26,330s",PASSED
+"openBrowser("""")",Chrome 99.0.4844.84,,,2022-04-04 23:19:50,2022-04-04 23:19:52,"1,330s",PASSED
+maximizeWindow(),Chrome 99.0.4844.84,,,2022-04-04 23:19:52,2022-04-04 23:19:52,"0,154s",PASSED
+navigateToUrl(toolsqa_urlElements_checkbox),Chrome 99.0.4844.84,,,2022-04-04 23:19:52,2022-04-04 23:19:53,"1,815s",PASSED
+"listeBloc = choix.split(""
+"")",Chrome 99.0.4844.84,,,2022-04-04 23:19:53,2022-04-04 23:19:53,"0,000s",PASSED
+"for ([j = 0, j < listeBloc.size(), (j++)])",Chrome 99.0.4844.84,,,2022-04-04 23:19:53,2022-04-04 23:20:15,"21,971s",PASSED
+closeBrowser(),Chrome 99.0.4844.84,,,2022-04-04 23:20:15,2022-04-04 23:20:16,"1,043s",PASSED

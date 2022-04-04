@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>textBox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8659ef95-b0fa-410b-9814-a902024f68f7</testCaseGuid>
+   <variable>
+      <defaultValue>'fullName'</defaultValue>
+      <description></description>
+      <id>63017a50-4302-41f4-a304-e6065785efe9</id>
+      <masked>false</masked>
+      <name>fullName</name>
+   </variable>
+   <variable>
+      <defaultValue>'email@email.com'</defaultValue>
+      <description></description>
+      <id>74fa23e6-6f63-444e-8b7d-f39519a354e1</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'currentAddress'</defaultValue>
+      <description></description>
+      <id>d737b565-1bbf-4715-a7f0-d66be57d824f</id>
+      <masked>false</masked>
+      <name>currentAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'permanentAddress'</defaultValue>
+      <description></description>
+      <id>c1756eef-16ec-48d1-a551-822e25110557</id>
+      <masked>false</masked>
+      <name>permanentAddress</name>
+   </variable>
+</TestCaseEntity>

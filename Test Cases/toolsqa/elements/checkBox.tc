@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkBox</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e30bb43e-e2f1-4a62-9c8f-0a2d82584967</testCaseGuid>
+   <variable>
+      <defaultValue>'Home>Desktop>Commands\r\nHome>Documents>WorkSpace>React-Veu\r\nHome>Documents>Office>Public-General'</defaultValue>
+      <description></description>
+      <id>a6c02ca3-66ee-4ada-a587-41cf8a9b4950</id>
+      <masked>false</masked>
+      <name>choix</name>
+   </variable>
+</TestCaseEntity>
