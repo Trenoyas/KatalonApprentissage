@@ -51,5 +51,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/toolsqa/elements/textB
 WebUI.verifyElementText(findTestObject('Object Repository/toolsqa/elements/textBox/Page_ToolsQA/p_Permananet Address pa'), 
     'Permananet Address :' + permanentAddress)
 
+println("xx")
 WebUI.closeBrowser()
 
